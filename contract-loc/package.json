@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "clean": "rm -rf tmp/",
+    "lint": "eslint .",
+    "test": "mkdir -p tmp/ && node index.js tmp/contracts_loc.csv sols/*"
+  },
+  "dependencies": {
+    "@solidity-parser/parser": "^0.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
